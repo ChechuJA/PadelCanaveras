@@ -1,0 +1,21 @@
+site_name: Reserva de Pista de Pádel
+site_description: Proyecto de pruebas para la reserva de una pista de pádel.
+site_author: Usuario
+
+extra_css:
+  - extra.css
+
+plugins:
+  - search  
+  - blog:
+      archive: true
+      archive_toc: true
+      archive_name: Archive
+      archive_date_format: yyyy/MM
+      archive_url_date_format: yyyy/MM
+      archive_url_format: "{date}"
+
+nav:
+  - Bienvenid@s: index.md
+  - Reservar Pista: reservar.md
+  - Disclaimer: disclaimer.md
